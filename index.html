@@ -10,23 +10,23 @@
 <body>
     <header>
         <h2></h2>
-        <h1>Survey Form</h1>
+        <h1 id="title">Survey Form</h1>
         <p>Powered by Reach</p>
-        <p class="quick"><strong>In less than 2mins take this quick survey, tell us what you think and how or where we can improve.</strong></p>
+        <p id="description" class="quick"><strong>In less than 2mins take this quick survey, tell us what you think and how or where we can improve.</strong></p>
     </header>
     <form action="">
         <fieldset>
             <legend><strong>Fiil out accurately</strong></legend>
-            <label class="personal" for="first-name">Enter Your First Name: <input class="personal-inp" type="text" name="first-name" id="first-name" required placeholder="First Name"></label>
+            <label class="personal" for="first-name" id="name-label">Enter Your First Name: <input class="personal-inp" type="text" name="first-name" id="name" required placeholder="First Name"></label>
             <label class="personal" for="last-name">Enter Your Last Name: <input class="personal-inp" type="text" name="last-name" id="last-name" required placeholder="Last Name"></label>
-            <label class="personal" for="email">Enter Your Email: <input class="personal-inp" type="email" name="email" id="email" required placeholder="Email"></label>
-            <label class="personal" for="age">Enter Your Age: <input class="personal-inp" type="number" name="age" id="age" min="10" max="100" placeholder="Age"></label>
+            <label class="personal" for="email" id="email-label">Enter Your Email: <input class="personal-inp" type="email" name="email" id="email" required placeholder="Email"></label>
+            <label class="personal" id="number-label" for="age">Enter Your Age: <input class="personal-inp" type="number" name="age" id="number" min="10" max="100" placeholder="Age"></label>
         </fieldset>
 
         <fieldset>
             <legend><strong>Role</strong></legend>
             <label for="role">What role best describes you?
-                <select name="role" id="role">
+                <select name="role" id="dropdown ">
                     <option value="Student">Student</option>
                     <option value="Instructor">Instructor</option>
                     <option value="time-job">Full Time Job</option>
@@ -39,9 +39,9 @@
 
         <fieldset>
             <legend><strong>Would you recommend Reach to a friend?</strong></legend>
-            <label for="yes"><input class="recommend" type="radio" name="recommend" id="yes">YES</label>
-            <label for="no"><input class="recommend" type="radio" name="recommend" id="no">NO</label>
-            <label for="maybe"><input class="recommend" type="radio" name="recommend" id="maybe">MAYBE</label>            
+            <label for="yes"><input class="recommend" value="yes" type="radio" name="recommend" id="yes">YES</label>
+            <label for="no"><input class="recommend" value="no" type="radio" name="recommend" id="no">NO</label>
+            <label for="maybe"><input class="recommend" value="maybe" type="radio" name="recommend" id="maybe">MAYBE</label>            
         </fieldset>
 
         <fieldset>
@@ -59,17 +59,17 @@
 
         <fieldset>
             <p><strong>What would you like us to improve?</strong><span>(Check all that apply)</span></p>
-            <label for="front-end"><input class="improve" type="checkbox" name="front-end" id="front-end" />Front-end projects</label>
-            <label for="back-end"><input class="improve" type="checkbox" name="back-end" id="back-end" />Backend-end projects</label>
-            <label for="data-visual"><input class="improve" type="checkbox" name="data-visual" id="data-visual" />Data Visualization</label>
-            <label for="challenges"><input class="improve" type="checkbox" name="challenges" id="challenges" />Challenges</label>
-            <label for="open-source"><input class="improve" type="checkbox" name="open-source" id="open-source" />Open Source Community</label>
-            <label for="gitter"><input class="improve" type="checkbox" name="gitter" id="gitter" />Gitter help rooms</label>
-            <label for="videos"><input class="improve" type="checkbox" name="videos" id="videos" />videos</label>
-            <label for="meetups"><input class="improve" type="checkbox" name="meetups" id="meetups" />city meetups</label>
-            <label for="wiki"><input class="improve" type="checkbox" name="" id="wiki" />Wiki</label>
-            <label for="forum"><input class="improve" type="checkbox" name="forum" id="forum" />Forum</label>
-            <label for="Additional"><input class="improve" type="checkbox" name="Additional" id="Additional" />Additional Courses</label>
+            <label for="front-end"><input class="improve" value="front-end" type="checkbox" name="front-end" id="front-end" />Front-end projects</label>
+            <label for="back-end"><input class="improve" value="back-end" type="checkbox" name="back-end" id="back-end" />Backend-end projects</label>
+            <label for="data-visual"><input class="improve" value="data-visual" type="checkbox" name="data-visual" id="data-visual" />Data Visualization</label>
+            <label for="challenges"><input class="improve" value="challenges" type="checkbox" name="challenges" id="challenges" />Challenges</label>
+            <label for="open-source"><input class="improve" value="open-source" type="checkbox" name="open-source" id="open-source" />Open Source Community</label>
+            <label for="gitter"><input class="improve" value="gitter" type="checkbox" name="gitter" id="gitter" />Gitter help rooms</label>
+            <label for="videos"><input class="improve" value="videos" type="checkbox" name="videos" id="videos" />videos</label>
+            <label for="meetups"><input class="improve" value="meetups" type="checkbox" name="meetups" id="meetups" />city meetups</label>
+            <label for="wiki"><input class="improve" value="wiki" type="checkbox" name="" id="wiki" />Wiki</label>
+            <label for="forum"><input class="improve" value="forum" type="checkbox" name="forum" id="forum" />Forum</label>
+            <label for="Additional"><input class="improve" value="Additional" type="checkbox" name="Additional" id="Additional" />Additional Courses</label>
         </fieldset>
 
         <fieldset>
