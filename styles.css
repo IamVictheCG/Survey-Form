@@ -99,6 +99,8 @@ textarea {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     /* padding-left: 230px; */
     /* margin-left: 200px; */
     background-color: #616161;
