@@ -59,7 +59,9 @@ input[type=submit] {
     font-size: 22px;
     height: 30px;
     margin: auto;
-    border: 2px springgreen solid;
+    border: 2px #07e1e9 solid;
+    background-color: #05464b;
+    color: #dddddd;
 }
 
 fieldset {
