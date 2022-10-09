@@ -14,7 +14,7 @@
         <p>Powered by Reach</p>
         <p id="description" class="quick"><strong>In less than 2mins take this quick survey, tell us what you think and how or where we can improve.</strong></p>
     </header>
-    <form action="">
+    <form action="" id="survey-form">
         <fieldset>
             <legend><strong>Fiil out accurately</strong></legend>
             <label class="personal" for="first-name" id="name-label">Enter Your First Name: <input class="personal-inp" type="text" name="first-name" id="name" required placeholder="First Name"></label>
@@ -26,7 +26,7 @@
         <fieldset>
             <legend><strong>Role</strong></legend>
             <label for="role">What role best describes you?
-                <select name="role" id="dropdown ">
+                <select class="dropdown" name="role" id="dropdown">
                     <option value="Student">Student</option>
                     <option value="Instructor">Instructor</option>
                     <option value="time-job">Full Time Job</option>
@@ -47,7 +47,7 @@
         <fieldset>
             <legend><strong>What's your favorite feature of Reach</strong></legend>
             <label for="fav-feat">
-                <select name="fav-feat" id="fav-feat">
+                <select class="dropdown" name="fav-feat" id="fav-feat">
                     <option value="">Pick your favorite</option>
                     <option value="projects">Projects</option>
                     <option value="challenges">Challenges</option>
@@ -58,7 +58,7 @@
         </fieldset>
 
         <fieldset>
-            <p><strong>What would you like us to improve?</strong><span>(Check all that apply)</span></p>
+            <p class="improvee"><strong>What would you like us to improve?</strong><span>(Check all that apply)</span></p>
             <label for="front-end"><input class="improve" value="front-end" type="checkbox" name="front-end" id="front-end" />Front-end projects</label>
             <label for="back-end"><input class="improve" value="back-end" type="checkbox" name="back-end" id="back-end" />Backend-end projects</label>
             <label for="data-visual"><input class="improve" value="data-visual" type="checkbox" name="data-visual" id="data-visual" />Data Visualization</label>

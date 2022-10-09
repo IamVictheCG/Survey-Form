@@ -18,9 +18,22 @@ h1 {
 
 p {
     /* padding-left: 4%; */
-    color: #032d30;
+    color: #0ee8f8;
 }
 
+.improvee {
+    color: rgb(0, 0, 0);
+}
+
+.improvee span {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.dropdown {
+    border: #0ee8f8 solid 2px;
+    border-radius: 7px;
+    height: 32px;
+}
 .quick{
     padding: 0 2%;
 }
