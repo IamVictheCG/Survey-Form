@@ -7,13 +7,39 @@
     <title>Survey Form</title>
 </head>
 <body>
+    <h1>Survey Form</h1>
+    <p>In less than 2mins take this quick survey, tell us what you think and how or where we can improve</p>
     <form action="">
         <fieldset>
-            <label for="first-name">Enter your First Name: <input type="text" name="first-name" id=""></label>
-            <label for=" "></label>
+            <legend>Fiil out accurately</legend>
+            <label for="first-name">Enter Your First Name: <input type="text" name="first-name" id="first-name" placeholder="First Name"></label>
+            <label for="last-name">Enter Your Last Name: <input type="text" name="last-name" id="last-name" placeholder="Last Name"></label>
+            <label for="email">Enter Your Email: <input type="email" name="email" id="email" placeholder="Email"></label>
+            <label for="age">Enter Your Password: <input type="number" name="age" id="age" placeholder="Age"></label>
         </fieldset>
-        <fieldset></fieldset>
-        <fieldset></fieldset>
+        <fieldset>
+            <legend>Role</legend>
+            <label for="role">What role best describes you?
+                <select name="role" id="role">
+                    <option value="Student">Student</option>
+                    <option value="Instructor">Instructor</option>
+                    <option value="time-job">Full Time Job</option>
+                    <option value="time-learner">Full Time Learner</option>
+                    <option value="unknown">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Would you recommend Reach to a friend?</legend>
+            <label for=""> <input type="radio" name="recommend" id="yes">YES</label>
+            <label for=""> <input type="radio" name="recommend" id="no">NO</label>
+            <label for=""> <input type="radio" name="recommend" id="maybe">MAYBE</label>            
+        </fieldset>
+
+        fiel
+
     </form>
 </body>
 </html>
